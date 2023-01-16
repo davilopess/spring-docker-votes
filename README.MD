@@ -49,12 +49,3 @@ PUT http://localhost:8080/pauta/sessao/voto
 ## Swagger
 
 http://localhost:8080/swagger-ui/index.html
-
-## RabbitMQ
-
-Para implementação de mensageria utilizei o CloudAMQP para criação 
-de uma instância remota
-
-## Validação De Cpf
-Foi implementado a validação do cpf informado pelo associado consumindo
-o endpoint https://user-info.herokuapp.com/users/{cpf}
